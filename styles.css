@@ -343,3 +343,103 @@ main {
     text-align: center;
     color: var(--just-white);
 }
+.main__plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding: 65px 0;
+    text-align: center;
+}
+.plans__title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+}
+.plans__title h2 {
+    margin-bottom: 25px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+.plans__title p {
+    margin-bottom: 50px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.plan-card {
+    position: relative;
+    width: 70%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+.plan-card__recomendation {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: -15px;
+    left: calc(50% - 50px);
+    padding: 6px;
+    font-size: 1.2rem;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);
+}
+.plan-card__title {
+    padding-top: 40px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8px;
+    color: #000000;
+}
+.plan-card__price {
+    margin: 10px auto;
+    padding: 0 20px 0 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    font-family: "Inter", sans-serif;
+    color: #000000;
+}
+.plan-card__price span {
+    margin: 5px;
+    vertical-align: 25px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+.plan-card__saving {
+    font-size: 1.2rem;
+    color: #757575;
+}
+.plan-card__button {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: #000000;
+    background-color: #FAF8F7;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 5px;
+    
+}
+.plan-card__button span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("./assets/icons/arrow-right.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+}
