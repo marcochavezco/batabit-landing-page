@@ -369,7 +369,7 @@ main {
     line-height: 1.8rem;
     color: #757575;
 }
-.plan-card {
+.plan-card-center, .plan-card-left, .plan-card-right {
     position: relative;
     width: 70%;
     min-width: 190px;
@@ -442,4 +442,44 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     vertical-align: top;
+}
+.plan-card__basic {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: -15px;
+    left: calc(50% - 50px);
+    padding: 6px;
+    font-size: 1.2rem;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);
+}
+
+.plan-card-right {
+    background-color: var(--warm-black);
+}
+.plan-card__pro {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: -15px;
+    left: calc(50% - 50px);
+    padding: 6px;
+    font-size: 1.2rem;
+    background-color: var(--black);
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);
+}
+.plan-card-right .plan-card__title {
+    color: var(--just-white);
+}
+.plan-card-right .plan-card__price {
+    color: var(--just-white);
+}
+.plan-card-right .plan-card__button {
+    border: 2px solid var(--bitcoin-orange);
+    background-color: var(--black);
+    color: var(--just-white);
 }
